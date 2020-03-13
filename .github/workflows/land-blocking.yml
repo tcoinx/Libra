@@ -1,10 +1,7 @@
 ---
 name: Land-blocking Test
 
-on:
-  push:
-    branches:
-      - auto
+on: push
 
 jobs:
   build-images:
